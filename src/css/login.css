@@ -1,0 +1,55 @@
+body {
+    background-image: url("../../assets/predators.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    background-size: 100%;
+    margin: 0;
+}
+
+.container {
+    margin: 150px 0 0 120px;
+}
+  
+.formulaire {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a9db5;
+    border-radius: 10px;
+    padding: 10px 0 0 0;
+}
+
+.identifiant {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #858fa0;
+    outline: none;
+}
+
+.password {
+    border-radius: 15px;
+    border: 2px solid  #858fa0;
+    margin: 10px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+
+.bouton {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 7px 15px;
+    background-color: #6780ab;
+    border: none;
+    color: #ffffff;
+}
+
+.boutons {
+    display: flex;
+    justify-content: space-between;
+}

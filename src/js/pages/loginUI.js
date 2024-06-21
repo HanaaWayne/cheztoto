@@ -17,6 +17,13 @@ const loginUI = function(){
 
             }
         },
+        errors : {
+            error: {
+                id: "error-email",
+                type: "text",
+                content: ""
+            }
+        },
         buttons : {
             reset: {
                 type: "reset",
@@ -30,12 +37,13 @@ const loginUI = function(){
             }
         }
     }
+    
 
     return(
         `
         <main>
 
-        ${form(data)}
+            ${form(data)}
 
         </main>
         `

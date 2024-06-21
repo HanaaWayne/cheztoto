@@ -1,7 +1,7 @@
-const input = function(data){
+const input = function(id, placeholder, type){
     return(
         `
-        <input class="identifiant" id="${data.id}" placeholder="${data.placeholder}" type="${data.type}" />
+        <input class="identifiant" id="${id}" placeholder="${placeholder}" type="${type}" />
         `
     )
 }

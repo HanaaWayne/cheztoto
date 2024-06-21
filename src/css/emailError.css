@@ -1,0 +1,8 @@
+.email{
+    margin: 0;
+}
+
+.email-error{
+    size: 12px;
+    color: red;
+}

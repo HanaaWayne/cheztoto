@@ -1,0 +1,15 @@
+.notification {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+.notification-animation--positive {
+    background-color:rgb(67, 187, 127);
+}
+
+.notification-animation--negative {
+	background-color: rgb(254, 156, 145);
+}
